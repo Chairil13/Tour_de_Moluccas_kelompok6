@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tour de Moluccas</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="cd-index cd-main-content">
+        <!----LEFT-BAR------->
+
+        <div class="left-bar-section">
+          <div class="left-content-inner d-flex justify-content-between flex-column h-100">
+            <div class="logo-section">
+              <a href="#wrapper"> <img src="img/logo.png" style="margin: 14px 0px 0px 0px" class="img-fluid" alt="logo" /></a>
+            </div>
+
+            <div class="link-section text-center d-none d-md-block d-sm-none">
+              <a href="#wrapper">Home</a>
+            </div>
+
+            <div class="copyright-section text-center">
+              <p>&copy Tour de Moluccas 2023</p>
+            </div>
+          </div>
+        </div>
+
+        <!----LEFT-BAR------->
+
+        <!----RIGHT-BAR------->
+        <div class="right-bar-section">
+          <div class="right-content-inner d-flex justify-content-between flex-column h-100">
+            <div class="ham-section d-flex justify-content-center">
+              <span class="open-menu"><img src="img/menu.svg" class="img-fluid" alt="" /></span>
+            </div>
+
+            <div class="link-section text-center d-none d-md-block d-sm-none">
+              <a href="CSS responsive-contact-form-with-google-map/index.html"> hubungi kami</a>
+            </div>
+
+            <div class="social-links">
+              <a href="https://www.facebook.com/chairil.ali.92/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/chairilali_13/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=6282238482847" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!----RIGHT-BAR------->
+
+        <!----nav------->
+        <section class="nav-section overlay">
+          <div class="close-menu">
+            <svg width="23.312" height="23.32" fill="#fff" viewBox="0 0 1000 1000">
+              <path d="M945.7 989.4L10 53.8 54.3 9.4 990 945.1l-44.3 44.3z" />
+              <path d="M10 946.2L945.7 10.6 990 54.9 54.3 990.6 10 946.2z" />
+            </svg>
+          </div>
+          <div class="container">
+            <div class="row m-200">
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="navcolumn" id="nav-column-first">
+                      <h2>About</h2>
+                      <a class="cd-btn" href="../index.html">Beranda</a>
+                      <a class="cd-btn" href="#about-section">Tentang aplikasi</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="navcolumn" id="nav-column-third">
+                      <h2>Contact</h2>
+                      <a class="cd-btn" href="#contact-wrapper">Hubungi kami</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!----nav------->
+
+        <div class="wrapper" id="wrapper">
+          <div class="banner">
+            <div class="planewrap">
+              <img id="plane" class="planey" src="img/plane.png" width="100%" alt="" />
+            </div>
+
+            <div class="bannersplat">
+              <div class="scotty"><img src="img/scotland.png" width="" height="" alt="" /></div>
+              <div class="fluid"></div>
+              <div class="fluiddark"></div>
+              <div class="text">
+                <h1>
+                  <span class="word d-flex justify-content-center">Tour_de _Moluccas</span>
+                  <span class="word d-flex justify-content-center">Kelompok_6</span>
+                  <span class="word d-flex justify-content-center">Popular_Destination</span>
+                  <span class="word d-flex justify-content-center">Vocation</span>
+                  <span class="word d-flex justify-content-center">Holiday</span>
+                </h1>
+              </div>
+            </div>
+
+            <div class="scroll-indicator">
+              <img src="img/scroll.svg" class="img-fluid" />
+            </div>
+          </div>
+
+          <section class="about-section" id="about-section">
+            <div class="container-fluid px-sm-0 p-0">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-7">
+                  <div class="abouttext">
+                    <h2 data-aos="fade-down">Tour de Moluccas</h2>
+
+                    <p data-aos="fade-up">
+                      Selamat datang di aplikasi Tour de Moluccas yang dikembangkan oleh kelompok 6 dalam tugas UTS Sistem Layanan Berbasis Lokasi untuk eksplor destinasi wisata eksotis di Provinsi Maluku! Pulau-pulau cantik, pantai indah, dan warisan budaya. Temukan keajaiban alam dan kebudayaan di
+                      Maluku, di mana petualangan tak terlupakan menanti anda.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="wavy-g"></div>
+
+          <section class="about-wrapper">
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-10">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="direction text-left">
+                        <div class="about-icon">
+                          <!-- <div class="circle-shape"></div> -->
+                          <img src="img/1.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Benteng Amsterdam Hilla</h3>
+                        <p class="hideme" data-aos="fade-right">
+                          Objek wisata peninggalan bersejarah memang selalu menjadi salah satu pusat perhatian banyak orang dan dijadikan sebagai destinasi wisata favorit. Salah satunya adalah Benteng Asmterdam Hillary di Maluku ini sangat bersejarah di kota Ambon. terletak di perbatasan Negeri Hila
+                          dan Negeri Keitetu. Benteng ini sendiri menyimpan beragam cerita historik yang dijamin akan membuatmu terpukau.<br />
+                          <br />
+                          Benteng Amsterdam ini juga mempunyaj daya tarik tersendiri. Bangunan yang masih asli dan kokoh, letaknya yang strategis serta pemandangan yang indah membuat destinasi yang satu ini menjadi spot yang sangat instagram-able.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.020055231394!2d128.08313953683242!3d-3.5828681838135243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6cfad4c6874ac7%3A0xb2ee545928ea5c55!2sFort%20Amsterdam%2C%20Ambon!5e0!3m2!1sen!2sid!4v1688146681178!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            frameborder="0"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="strategy text-right">
+                        <div class="about-icon">
+                          <img src="img/2.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-left" />
+                        </div>
+
+                        <div class=""></div>
+                        <h3 class="heading" data-aos="fade-left">Air terjun Hoko</h3>
+                        <p class="hideme" data-aos="fade-left">
+                          Air terjun Hoko adalah air terjun yang berada di lokasi Desa Hoko. Desa Hoko berada di kepulauan Kei Kabupaten Maluku Tenggara. Tempat wisata di maluku satu ini pernah dan sempat dijadikan sebagai salah satu nominasi dalam acara Anugerah Pesona Indonesia. Air terjun ini
+                          sempat viral dan cukup dikenal dengan banyak para wisatawan. <br />
+                          <br />Tempat wisata ini menyiapkan dan menawarkan pemandangan luar biasa yang sangat indah dan airnya yang sangat jernih dengan warna kebiruan. Air laut kira kira memiliki kedalamannya kurang dari 2 meter. <br />
+                          <br />
+                          Tetapi para wisatawan tidak hanya bisa menikmati air terjunnya saja, tetapi bisa juga menguji adrenalin dengan cara menaiki tebing yang dibawahnya terdapat lintasan air yang memiliki patahan kecil sebagai pijakan kaki.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-left">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15885.145780856266!2d133.1081648978478!3d-5.524449356633323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d3033a2d661875d%3A0xf1160aefae7efd6!2sAir%20Terjun%20Hoko!5e0!3m2!1sen!2sid!4v1688147185616!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="design text-left">
+                        <div class="about-icon">
+                          <img src="img/3.jpeg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Pantai Ora</h3>
+                        <p class="hideme" data-aos="fade-right">
+                          Pantai Ora merupakan pantai yang berada di daerah Pulau Seram Kabupaten Maluku Tengah. Pantai ini menawarkan keindahan yang seringkali dimiripkan dengan Maldives maupun Bora-bora. Warna airnya yang kebiruan dan pasir yang yang putih membuat pantai ini terlihat sangat indah
+                          dan asri. Untuk anda yang ingin menikmati Pulau Ora anda harus beberapa kali menggunakan alat transportasi menuju pantainya. Budget yang anda miliki harus mempunyai minimal 5 juta karena mengingat akses menuju pulau ini lumayan rumit. Tetapi jika kamu sudah berada di pulau
+                          ini, lelah dan semua keringat anda menuju pulau ini akan sangat terbayarkan.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31875.96602983648!2d129.11862778309907!3d-2.9598514502121187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6a3aaaaaaaaaab%3A0xf8e9bb942190466b!2sPantai%20Ora!5e0!3m2!1sen!2sid!4v1688147296375!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="strategy text-right">
+                        <div class="about-icon">
+                          <img src="img/4.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-left" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-left">Goa Hawang</h3>
+                        <p class="hideme" data-aos="fade-left">
+                          Tak kalah eksotis, destinasi wisata Maluku satu ini merupakan salah satu tempat wisata alam dimana kita akan disuguhkan panorama mengagumkan. Goa dengan formasi bebatuan yang unik ini terendam air dengan permukaan kebiruan sehingga menciptakan keseluruhan image yang menarik
+                          dan romantis.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-left">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.686309184728!2d132.69906797388938!3d-5.758209156862858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d2ffd3147b3abb7%3A0x5571c91e1334f6ae!2sAir%20Goa%20Hawang!5e0!3m2!1sen!2sid!4v1688147418607!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="design text-left">
+                        <div class="about-icon">
+                          <img src="img/5.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Gunung Binaiya</h3>
+                        <p class="hideme" data-aos="fade-right">
+                          Gunung Binaiya merupakan gunung yang tidak boleh anda lewatkan jika anda gemar mendaki. Gunung ini juga termasuk kedalam 7 Summits of Indonesia. Letak gunung ini berada di daerah Pulau Seram, tepatnya di daerah kawasan Taman Nasional Manusela. <br /><br />Medan yang ada di
+                          gunung ini sangat menantang karena banyak memiliki trek yang menakutkan, contohnya banyak terdapat jurang dan trek bebatuan. Tetapi jika anda sudah berada dipuncak, anda akan merasakan dan dapat melihat pemandangan yang sangat mempesona dan sangat indah.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31869.605160363295!2d129.43440018322727!3d-3.1732901950489234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6a490fa2bd37d7%3A0x6423c278c76847c3!2sGunung%20Binaiya!5e0!3m2!1sen!2sid!4v1688147522055!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="strategy text-right">
+                        <div class="about-icon">
+                          <img src="img/6.jpeg" class="img-fluid" width="" height="" alt="" data-aos="fade-left" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-left">Istana Mini</h3>
+                        <p class="hideme" data-aos="fade-left">
+                          Istana Mini ini merupakan sebuah bangunan yang sudah dibangun sejak tahun 1962. Tempat ini mirip seperti istana negara, tetapi ukurannya yang sedikit lebih kecil. Monumen ini dahulu dijadikan sebagai tempat kantor administrasi VOC. Tempat istana mini ini berada di Desa
+                          Dwiwarna, yang terletak di Pulau Banda di Kabupaten Maluku Tengah. Tempat ini bisa dijadikan sebagai tempat belajar sejarah bagi anda yang tertarik dengan sejarah maluku terbentuk.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-left">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.35984722505!2d129.8980213738735!3d-4.529044147766757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d158600ec0eb25f%3A0x5c13e8ca29f208cf!2sIstana%20Mini%20-%20Paleis%20van%20de%20Gouverneur-Generaal%20in%20Banda!5e0!3m2!1sen!2sid!4v1688147646230!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="design text-left">
+                        <div class="about-icon">
+                          <img src="img/7.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Patung Martha Christina</h3>
+                        <p class="hideme" data-aos="fade-right">
+                          Patung Martha Christina merupakan salah satu tempat wisata di Maluku. Monumen ini merupakan monumen yang sangat bersejarah dan terletak di daerah Kota Ambon. Jika anda berkunjung ke monumen ini anda bisa menyaksikan keindahan Kota Ambon beserta panorama alam seperti,
+                          pegunungan dan lautnya maluku yang sangat indah.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.5580055640157!2d128.1923212351482!3d-3.6875195014291244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6ce92a8fd6d89b%3A0x8966dc572c62f750!2sPatung%20Christina%20Martha%20Tiahahu!5e0!3m2!1sen!2sid!4v1688147723755!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="strategy text-right">
+                        <div class="about-icon">
+                          <img src="img/8.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-left" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-left">Masjid Wapawue</h3>
+                        <p class="hideme" data-aos="fade-left">
+                          Dibangun pada tahun 1414, Masjid Wapawue merupakan masjid tertua yang ada di Maluku. Selain menjadi tempat ibadah bersejarah di Maluku, masjid ini juga merupakan tempat pertama dimana penyebaran Agama Islam dimulai. <br />
+                          <br />Secara arsitektur, masjid bernuansa rustic ini mengusung budaya Jawa, dengan bangunan yang mirip joglo ataupun Masjid Agung Demak. Yang uniknya, struktur dari masjid ini tidak memakai paku sama sekali lho! Untuk interiornya, Masjid Wapawue dihiasi banyak barang
+                          bersejarah seperti Mushaf Al Quran buatan Mushaf Nur Cahya dan bedug yang berusia lebih dari tujuh abad.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-left">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.010010276188!2d128.08163977386317!3d-3.5851757424580226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6cfb2235872847%3A0xdf25cebb8b53e844!2sWapauwe%20Kaitetu%20Old%20Mosque!5e0!3m2!1sen!2sid!4v1688147963473!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="design text-left">
+                        <div class="about-icon">
+                          <img src="img/9.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Pantai pintu kota</h3>
+                        <p class="hideme" data-aos="fade-right">
+                          Pantai Pintu Kota berlokasi di Dusun Airlouw, Nusaniwe, Kota Ambon. Pantai ini berjarak sekitar 45 kilometer dari pusat Kota Ambon. Keunikan pantai ini adalah karang berlubang yang berbentuk mirip sebuah gerbang atau pintu. Dari karang berlubang ini, kamu bisa menyaksikan
+                          pemandangan laut Banda yang memesona.
+                        </p>
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.1820508745695!2d128.149858173865!3d-3.7705311433855964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6cc335f61cc1e9%3A0x456317295a6201a6!2sPintu%20Kota%20Beach!5e0!3m2!1sen!2sid!4v1688148030849!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="strategy text-right">
+                        <div class="about-icon">
+                          <img src="img/10.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-left" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-left">Benteng Belgia, Banda Neira</h3>
+                        <p class="hideme" data-aos="fade-left">
+                          Selain Benteng Amsterdam, kota Ambon juga terdapat tempat bersejarah bernama Benteng Belgia Banda Neira. Benteng yang biasanya disebut dengan Benteng Belgia ini adalah benteng peninggalan peninggalan sejarah lain yang terletak dii Banda Neira, Ambon. <br />
+                          <br />Bangunan benteng ini sangat megah. Tidak hanya megah, benteng dengan lokasi yang sangat strategis ini juga menyuguhkan nuansa alam yang sangat indah dengan pemandangan gunung dan lautnya yang masih sangat asri dan alami. Pokoknya anda akan langsung terpukau pastinya.
+                          <br /><br />Salah satu daya tarik dari benteng Belgia ini adalah bangunan yang berbentuk segi limanya. Belum lagi cerita sejarah yang melatarbelakangi berdirinya benteng ini. Pokoknya para pecinta wisata sejarah pasti tidak akan menyesal mengunjungi tempat bersejarah ini,
+                          deh.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-left">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.375901086095!2d129.8963328738736!3d-4.526123647748076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d15860903e4fb6b%3A0xfabde573db11c1a7!2sFort%20Belgica!5e0!3m2!1sen!2sid!4v1688148175149!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="design text-left">
+                        <div class="about-icon">
+                          <img src="img/11.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Pemandian Air Panas Negeri Tulehu</h3>
+                        <p class="hideme" data-aos="fade-right">
+                          Pemandian air panas negeri Tulehu bisa menjadi tujuan liburan di Ambon selanjutnya untuk dikunjungi. Berjarak sekitar 30 km dari pusat kota Ambon, destinasi tempat wisata di Ambon ini berada di area perbukitan sehingga Toppers bisa menikmati udara yang segar dan air panas
+                          alam yang menenangkan.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.979087737519!2d128.30769751749904!3d-3.59227007208376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6ced51d3a82f9d%3A0x5f4e01bca0cc1e18!2sAir%20Panas%20Tulehu!5e0!3m2!1sen!2sid!4v1688148298868!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="strategy text-right">
+                        <div class="about-icon">
+                          <img src="img/12.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-left" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-left">Pantai Natsepa</h3>
+                        <p class="hideme" data-aos="fade-left">
+                          Alternatif wisata pantai di Ambon lainnya adalah Pantai Natsepa. Destinasi wisata Ambon satu ini cocok menjadi tujuan jika tengah mencari ketenangan karena suasana pantai yang sepi dikelilingi pepohonan yang rindang mampu menciptakan atmosfer yang menenangkan.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-left">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31854.808181142354!2d128.27152008351243!3d-3.621503336179674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6cece6e8bfa427%3A0x4f23bfbc3a9673f2!2sNatsepa%20Beach!5e0!3m2!1sen!2sid!4v1688148379574!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="design text-left">
+                        <div class="about-icon">
+                          <img src="img/13.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Museum Siwalima</h3>
+                        <p class="hideme" data-aos="fade-right">Berada sekitar 5 km dari pusat kota Ambon, Toppers bisa mengunjungi Museum Siwalima yang menyimpan banyak koleksi seputar budaya dan adat-istiadat dari Ambon dan kepulauan Maluku.</p>
+
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.4413719166973!2d128.15040557386425!3d-3.71347074309405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6ce80eafbfeb7d%3A0xbf9977619e9db228!2sMuseum%20Siwalima%20Provinsi%20Maluku!5e0!3m2!1sen!2sid!4v1688148444800!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="strategy text-right">
+                        <div class="about-icon">
+                          <img src="img/14.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-left" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-left">Gong perdamaian dunia</h3>
+                        <p class="hideme" data-aos="fade-left">
+                          Monumen Gong Perdamaian Dunia merupakan salah situ bersejarah yang tepat berada di pusat kota Ambon. Gong Perdamaian Dunia di Ambon merupakan gong perdamaian dunia ke-35 di dunia dan ketiga di Indonesia. Gong ini memiliki diameter seluas 2 meter dan berwarna keemasan. Pada
+                          bagian tengah gong terdapat dari lambing tiap agama, miniatur bumi serta bertuliskan ‘Gong Perdamaian Dunia’ pada bagian atas dan ‘World Peace Gong’ pada bagian bawah.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-left">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.532943650396!2d128.17849437386423!3d-3.693111192991323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6ce85058510ac7%3A0x82e5d75c684bc1d7!2sMonumen%20Perdamaian%20Dunia!5e0!3m2!1sen!2sid!4v1688148548697!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="design text-left">
+                        <div class="about-icon">
+                          <img src="img/15.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Taman Nasional Manusela</h3>
+                        <p class="hideme" data-aos="fade-right">
+                          Taman Nasional Manusela merupakan satu-satunya taman nasional yang ada di Maluku. Taman ini merupakan gabungan dari dua cagar alam, yaitu Wae Nua dan Wae Mual. Di sini memiliki kontur yang beragam, mulai dari perbukitan, pegunungan, hutan tropis, pesisir hutan bakau, hingga
+                          lautan dengan terumbu karang yang sangat indah.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.07320962973!2d129.61739137385814!3d-3.0751223401955725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6a3e86e135f24f%3A0x123b0ca6b8339a6e!2sManusela%20National%20Park!5e0!3m2!1sen!2sid!4v1688148613600!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="strategy text-right">
+                        <div class="about-icon">
+                          <img src="img/16.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-left" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-left">Pantai lubang Buaya Morella</h3>
+                        <p class="hideme" data-aos="fade-left">
+                          Mendengar kata Lubang Buaya tentunya traveler akan teringat dengan peristiwa sejarah yang terjadi di tahun 60an yang lalu. Namun berbeda dengan Lubang Buaya Morella yang merupakan nama dari tempat wisata cantik dan eksotis yang terletak di Maluku. Orang – orang setempat
+                          menyebutnya setetes surga yang jatuh di tanah Maluku.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-left">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.2983420128585!2d128.2210807738624!3d-3.5183383421373313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6cf6ae7693ae9f%3A0x201c7423df81cfcc!2sLubang%20Buaya%20Morella!5e0!3m2!1sen!2sid!4v1688148727290!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="design text-left">
+                        <div class="about-icon">
+                          <img src="img/17.jpg" class="img-fluid" width="" height="" alt="" data-aos="fade-right" />
+                        </div>
+
+                        <h3 class="heading" data-aos="fade-right">Pulau Bair</h3>
+                        <p class="hideme" data-aos="fade-right">
+                          Dari banyak tempat yang ada di kawasan Maluku, Pulau Bair mungkin menjadi tempat yang belum banyak dikenal oleh wisatawan. Tetapi, sekarang Pulau Bair sudah mulai dikelola untuk menjadi tujuan wisata baru di kawasan tersebut. Keindahan laut di pulau ini bahkan disejajarkan
+                          dengan tempat wisata populer lainnya seperti Raja Ampat yang berlokasi di Papua Barat. Para wisatawan yang datang bisa melakukan berbagai aktivitas, seperti snorkeling, menyelam hingga memancing. Serunya lagi, Pulau Bair terlindungi dari gelombang laut, jadi kamu pun bisa
+                          dengan aman bermain kano atau jetski di area perairannya.
+                        </p>
+
+                        <div class="map-container js-map-container" data-aos="fade-right">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31774.421423486318!2d132.6830113848969!3d-5.4469012277819315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d307278f421745d%3A0xa5f6edc19ce13ed6!2sBair%20Beach!5e0!3m2!1sen!2sid!4v1688148819418!5m2!1sen!2sid"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                          ></iframe>
+
+                          <button class="map-toggle js-map-toggle">Enable map</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="workclose"><img src="img/wavy2.png" class="img-fluid" width="" height="" alt="" /></div>
+
+          <section class="contact-wrapper" id="contact-wrapper">
+            <div class="contact-text" data-aos="zoom-in" data-aos-offset="350">
+              <h1>Hubungi kami, <a class="cd-btn" href="CSS responsive-contact-form-with-google-map/index.html">klik ini!</a></h1>
+            </div>
+
+            <div class="bannersplat">
+              <div class="scotty"><img src="img/scotland.png" width="" height="" alt="" /></div>
+              <div class="fluid"></div>
+              <div class="fluiddark"></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- GSAP anaimation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script>
+      gsap.from(".logo-section", { opacity: 0, duration: 1.5, y: -100, ease: "bounce" });
+      gsap.from(".ham-section", { opacity: 0, duration: 1.5, rotateY: 360 });
+      gsap.from(".link-section", { opacity: 0, duration: 2, delay: 1.5, y: -200, ease: "back" });
+      gsap.from(".copyright-section", { opacity: 0, duration: 2, delay: 1.5, y: 100, ease: "back" });
+      gsap.from(".social-links", { opacity: 0, duration: 2, delay: 1.5, y: 100, ease: "back" });
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+      var words = document.getElementsByClassName("word");
+      var wordArray = [];
+      var currentWord = 0;
+
+      words[currentWord].style.opacity = 1;
+      for (var i = 0; i < words.length; i++) {
+        splitLetters(words[i]);
+      }
+
+      function changeWord() {
+        var cw = wordArray[currentWord];
+        var nw = currentWord == words.length - 1 ? wordArray[0] : wordArray[currentWord + 1];
+        for (var i = 0; i < cw.length; i++) {
+          animateLetterOut(cw, i);
+        }
+
+        for (var i = 0; i < nw.length; i++) {
+          nw[i].className = "letter behind";
+          nw[0].parentElement.style.opacity = 1;
+          animateLetterIn(nw, i);
+        }
+
+        currentWord = currentWord == wordArray.length - 1 ? 0 : currentWord + 1;
+      }
+
+      function animateLetterOut(cw, i) {
+        setTimeout(function () {
+          cw[i].className = "letter out";
+        }, i * 80);
+      }
+
+      function animateLetterIn(nw, i) {
+        setTimeout(function () {
+          nw[i].className = "letter in";
+        }, 340 + i * 80);
+      }
+
+      function splitLetters(word) {
+        var content = word.innerHTML;
+        word.innerHTML = "";
+        var letters = [];
+        for (var i = 0; i < content.length; i++) {
+          var letter = document.createElement("span");
+          letter.className = "letter";
+          letter.innerHTML = content.charAt(i);
+          word.appendChild(letter);
+          letters.push(letter);
+        }
+
+        wordArray.push(letters);
+      }
+
+      changeWord();
+      setInterval(changeWord, 4000);
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(window).scrollTop() < 100) {
+            //-navbar-----scrolltop---fixed---jquery--/
+            $(".planewrap").removeClass("navbar-scroll");
+          } else {
+            $(".planewrap").addClass("navbar-scroll");
+          }
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".open-menu").on("click", function () {
+          $(".overlay").addClass("open");
+        });
+
+        $(".close-menu").on("click", function () {
+          $(".overlay").removeClass("open");
+        });
+      });
+    </script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
